@@ -31,7 +31,7 @@ type ListWebhookRequest struct {
 
 type ListWebhookResponse struct {
 	Total   int             `json:"total"`
-	Records []model.Webhook `json:"record"`
+	Records []model.Webhook `json:"records"`
 }
 
 type CreateWebhookRequest struct {
